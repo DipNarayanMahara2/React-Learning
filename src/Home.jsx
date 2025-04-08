@@ -1,5 +1,6 @@
 import React from "react";
 import Button from "./Button";
+import { Link } from "react-router-dom";
 
 const Home = () => {
   return (
@@ -10,6 +11,9 @@ const Home = () => {
       <Button name="Logout" />
       <Button />
       <h1>This is footer</h1>
+      <Link href="/about">
+        <button>about page</button>
+      </Link>
     </div>
   );
 };
