@@ -6,19 +6,19 @@ const UseEffect = () => {
   const [count2, setCount2] = useState(0);
 
   // first type of useEffect
-  useEffect(() => {
-    console.log("Hello inside from useEffect");
-  }, []);
+  // useEffect(() => {
+  //   console.log("Hello inside from useEffect");
+  // }, []);
 
   // second type of useEffect
-  useEffect(() => {
-    console.log("second type of useEffect");
-  }, [count]);
+  // useEffect(() => {
+  //   console.log("second type of useEffect");
+  // }, [count]);
 
   // Third type of useEffect
-  useEffect(() => {
-    console.log("Third type of useEffect");
-  });
+  // useEffect(() => {
+  //   console.log("Third type of useEffect");
+  // });
 
   return (
     <div>
