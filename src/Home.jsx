@@ -11,9 +11,7 @@ const Home = () => {
       <Button name="Logout" />
       <Button />
       <h1>This is footer</h1>
-      <Link href="/about">
-        <button>about page</button>
-      </Link>
+      
     </div>
   );
 };
