@@ -9,9 +9,6 @@ const Home = () => {
       <Button name="Login" />
       <Button name="Logout" />
       <Button />
-      <Button name={2} />
-      <Button name={2} />
-      <Button name={2} />
       <h1>This is footer</h1>
     </div>
   );
